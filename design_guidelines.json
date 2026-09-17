@@ -1,0 +1,305 @@
+{
+  "project_name": "AC of South Florida - Award-Worthy HVAC Landing Page",
+  "app_type": "landing_page",
+  "target_audience": "South Florida homeowners, luxury estate managers, and commercial property owners requiring rapid 24/7 air conditioning repair, maintenance, and high-efficiency system installations.",
+  "brand_identity": {
+    "name": "AC of South Florida",
+    "phone": "954-554-3040",
+    "email": "alan@acofsouthflorida.com",
+    "tagline": "Precision Climate Engineering for South Florida Luxury Estates & Modern Homes",
+    "emotional_tone": "High-Tech Precision, Rapid Reliability, Cool Architectural Luxury, Uncompromising Comfort",
+    "license_info": "FL State Licensed & Insured HVAC Contractor #CAC1819283"
+  },
+  "typography": {
+    "font_families": {
+      "display": "'Outfit', 'Syne', sans-serif",
+      "body": "'Plus Jakarta Sans', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "font_imports": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap",
+    "scale": {
+      "h1_hero": "text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.08]",
+      "h2_section": "text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "body_lg": "text-lg text-slate-300 leading-relaxed",
+      "body_base": "text-base text-slate-400 leading-relaxed",
+      "overline_mono": "font-mono text-xs uppercase tracking-[0.25em] text-cyan-400 font-semibold"
+    }
+  },
+  "colors": {
+    "archetype": "ARCHETYPE 7: ELECTRIC & NEON / ARCTIC LUXURY",
+    "palette": {
+      "background": "#070B12",
+      "surface_dark": "#0D1424",
+      "surface_card": "#131D33",
+      "surface_card_hover": "#1A2744",
+      "border_subtle": "rgba(56, 189, 248, 0.12)",
+      "border_active": "rgba(56, 189, 248, 0.4)",
+      "primary_cyan": "#00E5FF",
+      "primary_cyan_hover": "#33ECFF",
+      "accent_blue": "#2563EB",
+      "accent_emerald_dispatch": "#10B981",
+      "emergency_coral": "#FF5252",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "text_muted": "#64748B"
+    },
+    "gradients": {
+      "cyan_glow": "linear-gradient(135deg, rgba(0, 229, 255, 0.15) 0%, rgba(37, 99, 235, 0.05) 100%)",
+      "text_hero": "linear-gradient(180deg, #FFFFFF 0%, #CBD5E1 100%)",
+      "text_accent": "linear-gradient(135deg, #00E5FF 0%, #38BDF8 50%, #818CF8 100%)",
+      "card_surface": "linear-gradient(180deg, rgba(19, 29, 51, 0.7) 0%, rgba(13, 20, 36, 0.9) 100%)",
+      "cta_primary": "linear-gradient(135deg, #00E5FF 0%, #0088FF 100%)"
+    }
+  },
+  "layout_and_spacing": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-20 md:py-28 lg:py-32",
+    "grid_gap": "gap-6 lg:gap-8",
+    "bento_grid_mode": "MODE A: THE TETRIS GRID for Hero and Featured Services with asymmetric high-impact focus",
+    "mobile_first": true
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-[#070b12]/80 border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.37)]",
+    "card_tracing_beam": "relative overflow-hidden rounded-2xl border border-cyan-500/20 bg-slate-900/60 p-6 md:p-8 backdrop-blur-md transition-all duration-300 hover:border-cyan-400/50 hover:shadow-[0_0_30px_rgba(0,229,255,0.15)]",
+    "noise_texture": "bg-[radial-gradient(#1e293b_1px,transparent_1px)] [background-size:16px_16px] opacity-40",
+    "cyan_ambient_glow": "absolute -z-10 w-96 h-96 rounded-full bg-cyan-500/10 blur-[120px] pointer-events-none"
+  },
+  "key_sections": [
+    {
+      "id": "hero",
+      "title": "Kinetic Hero with Technician Video Background & 24/7 Live Status",
+      "components": [
+        "Sticky Glassmorphism Header with active scrollspy links & click-to-call button (954-554-3040)",
+        "Live 24/7 Tri-County Dispatch Badge with pulsing emerald status dot",
+        "Masked Line-by-Line Headline Reveal ('Uncompromising Cooling. Instant 24/7 Relief.')",
+        "Key Stats Cards (15,000+ Units Serviced | <45 Min Emergency Dispatch | 4.9★ Rated | 100% Satisfaction)",
+        "Dual Action CTAs: 'Book Online Service' (Triggers appointment modal) + 'Emergency Call: 954-554-3040'",
+        "Background Video Loop (Technician repairing AC system) with dark gradient overlay & subtle parallax image fallback"
+      ]
+    },
+    {
+      "id": "editorial_marquee",
+      "title": "Continuous Kinetic Ribbon Marquee",
+      "content": "24/7 EMERGENCY DISPATCH • MIAMI-DADE • BROWARD • PALM BEACH • HIGH-EFFICIENCY INVERTER SYSTEMS • INDOOR AIR PURIFICATION • LICENSED & INSURED CAC#1819283"
+    },
+    {
+      "id": "services",
+      "title": "Numbered Core Services (6 High-Impact Cards)",
+      "cards": [
+        {
+          "number": "01",
+          "title": "24/7 AC Repair & Diagnostics",
+          "desc": "Fast, precision diagnostic and immediate cooling restoration for all major HVAC brands in South Florida heat.",
+          "tag": "Emergency Dispatch"
+        },
+        {
+          "number": "02",
+          "title": "Annual Maintenance & Tune-Up",
+          "desc": "21-point comprehensive inspection to prevent sudden breakdowns, lower electric bills, and extend equipment lifespan.",
+          "tag": "$89 Special"
+        },
+        {
+          "number": "03",
+          "title": "New System Installation",
+          "desc": "High-SEER2 energy-efficient AC systems tailored for Florida humidity. Free in-home load calculations and zero-down financing.",
+          "tag": "Rebates Up To $2,000"
+        },
+        {
+          "number": "04",
+          "title": "Commercial HVAC Solutions",
+          "desc": "Custom climate engineering for retail, office buildings, and industrial spaces across Miami-Dade, Broward, and Palm Beach.",
+          "tag": "Commercial Priority"
+        },
+        {
+          "number": "05",
+          "title": "Precision Duct Cleaning & Sanitization",
+          "desc": "Eliminate mold spores, dust mites, and allergens from air ducts with industrial HEPA filtration and UV sanitization.",
+          "tag": "Pure Air Guarantee"
+        },
+        {
+          "number": "06",
+          "title": "Smart Thermostats & Automation",
+          "desc": "Seamless integration with Nest, Ecobee, and modern smart home systems for remote climate management and humidity control.",
+          "tag": "Energy Savings"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Specials & Transparent Pricing (3 Tiers)",
+      "tiers": [
+        {
+          "name": "Precision Tune-Up",
+          "price": "$89",
+          "subtitle": "Single Service Assessment",
+          "features": [
+            "21-Point Comprehensive System Check",
+            "Refrigerant Level & Pressure Test",
+            "Condensate Drain Line Flush",
+            "Electrical & Capacitor Inspection",
+            "Thermostat Calibration"
+          ],
+          "badge": "Popular Entry",
+          "cta": "Claim $89 Tune-Up"
+        },
+        {
+          "name": "Annual Care Plan",
+          "price": "$199",
+          "period": "/year",
+          "subtitle": "Complete Peace of Mind",
+          "features": [
+            "2 Complete Maintenance Visits Per Year",
+            "15% Discount on All Repairs & Parts",
+            "Priority Emergency Dispatch Status",
+            "Zero Diagnostic Fees with Repair",
+            "Transferable to New Homeowner"
+          ],
+          "badge": "BEST VALUE",
+          "highlight": true,
+          "cta": "Join Care Plan"
+        },
+        {
+          "name": "New System Install",
+          "price": "From $3,999",
+          "subtitle": "High-Efficiency Upgrade",
+          "features": [
+            "Top Brand Inverter AC Units (Daikin, Trane, Carrier)",
+            "10-Year Manufacturer Warranty",
+            "0% APR Financing for 60 Months Available",
+            "Free Smart Thermostat Included",
+            "Same-Day Professional Installation"
+          ],
+          "badge": "High Efficiency",
+          "cta": "Request Free Estimate"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "title": "Verified Client Testimonials & 4.9★ Summary",
+      "rating_summary": {
+        "score": "4.9",
+        "total_reviews": "1,280+",
+        "breakdown": [
+          { "category": "Emergency Speed", "score": "5.0/5" },
+          { "category": "Workmanship & Cleanliness", "score": "4.9/5" },
+          { "category": "Technical Expertise", "score": "5.0/5" },
+          { "category": "Fair & Upfront Pricing", "score": "4.8/5" }
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Dr. Marcus Vance",
+          "city": "Coral Gables, FL",
+          "rating": 5,
+          "service": "24/7 AC Repair",
+          "comment": "AC died on a 94° Saturday afternoon. AC of South Florida had a tech at my front door in 38 minutes. Tech repaired the blown capacitor on the spot. Lifesavers!"
+        },
+        {
+          "name": "Elena Rostova",
+          "city": "Boca Raton, FL",
+          "rating": 5,
+          "service": "New System Installation",
+          "comment": "Replaced our 12-year-old AC with a 18 SEER2 variable-speed unit. Our FPL electric bill dropped by nearly $180/month immediately. Flawless installation!"
+        },
+        {
+          "name": "Carlos M. Rodriguez",
+          "city": "Fort Lauderdale, FL",
+          "rating": 5,
+          "service": "Annual Care Plan",
+          "comment": "We've been on their annual care plan for 3 years. Punctual, polite, and extremely clean. They put on shoe covers before entering and leave the mechanical closet immaculate."
+        },
+        {
+          "name": "Sarah Jenkins",
+          "city": "West Palm Beach, FL",
+          "rating": 5,
+          "service": "Duct Cleaning & UV Light",
+          "comment": "Noticeable improvement in indoor air quality within 24 hours. My daughter's morning allergies completely vanished. Highly recommend their duct sanitization."
+        },
+        {
+          "name": "David L. Sterling",
+          "city": "Aventura, FL",
+          "rating": 5,
+          "service": "Commercial HVAC",
+          "comment": "They handle climate control for our 3 retail showrooms in Aventura. Professional, transparent invoicing, and zero downtime. Outstanding partner."
+        },
+        {
+          "name": "Patricia Thorne",
+          "city": "Weston, FL",
+          "rating": 5,
+          "service": "Smart Thermostat Setup",
+          "comment": "Installed Nest thermostats and balanced the airflow across all 4 bedrooms upstairs. Cool, quiet, and perfectly balanced air throughout the home."
+        }
+      ]
+    },
+    {
+      "id": "service_area",
+      "title": "Interactive Tri-County SVG Map & 16 Service Cities",
+      "counties": ["Miami-Dade County", "Broward County", "Palm Beach County"],
+      "cities": [
+        "Miami", "Fort Lauderdale", "West Palm Beach", "Boca Raton", 
+        "Coral Gables", "Hollywood", "Pompano Beach", "Miramar", 
+        "Pembroke Pines", "Boynton Beach", "Delray Beach", "Aventura", 
+        "Sunny Isles", "Davie", "Plantation", "Weston"
+      ]
+    },
+    {
+      "id": "booking_form",
+      "title": "Interactive Appointment Scheduler & Instant Confirmation Modal",
+      "features": [
+        "Multi-step intuitive appointment request",
+        "Select Service Type (Repair, Maintenance, New Install, Duct Cleaning, Commercial)",
+        "Preferred Date & Time slot picker",
+        "Emergency Priority Toggle ('My AC is currently NOT cooling')",
+        "Sends confirmation dispatch summary to user and notification alert to alan@acofsouthflorida.com",
+        "Modal popup with booking reference number, tech arrival window, and direct call trigger"
+      ]
+    },
+    {
+      "id": "footer",
+      "title": "Award-Level Editorial Footer",
+      "components": [
+        "Technician video/image highlight panel with live dispatch counter",
+        "Direct Click-to-Call prominent link: 954-554-3040",
+        "Email contact: alan@acofsouthflorida.com",
+        "Service area city index",
+        "Business Hours: 24/7 Emergency Line | Mon-Sun 7:00 AM - 9:00 PM Standard Dispatch",
+        "State License #CAC1819283 badge & warranty assurances"
+      ]
+    }
+  ],
+  "image_urls": {
+    "technician_repair": "https://images.pexels.com/photos/5463576/pexels-photo-5463576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "technician_rooftop": "https://images.pexels.com/photos/5463581/pexels-photo-5463581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "technician_indoor": "https://images.unsplash.com/photo-1701058666995-07adcef94170?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHw0fHxhaXIlMjBjb25kaXRpb25lciUyMHRlY2huaWNpYW4lMjByZXBhaXIlMjB3b3JraW5nfGVufDB8fHx8MTc4OTY3MjgyM3ww&ixlib=rb-4.1.0&q=85",
+    "luxury_miami_home": "https://images.unsplash.com/photo-1575707340632-c1e7ffd7a46b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBsdXh1cnklMjBtaWFtaSUyMGhvbWUlMjBpbnRlcmlvciUyMGFjJTIwYWlyJTIwY29uZGl0aW9uaW5nfGVufDB8fHx8MTc4OTY3MjgyM3ww&ixlib=rb-4.1.0&q=85",
+    "modern_living_room_ac": "https://images.pexels.com/photos/11701115/pexels-photo-11701115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "smart_thermostat_control": "https://images.pexels.com/photos/27638181/pexels-photo-27638181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "ac_control_panel": "https://images.pexels.com/photos/32737485/pexels-photo-32737485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "technician_video_mp4": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-technician-working-on-an-air-conditioner-41399-large.mp4"
+  },
+  "motion_and_libraries": {
+    "lenis_smooth_scroll": "Import Lenis for silky momentum scrolling: import Lenis from '@studio-freight/lenis' or 'lenis'",
+    "framer_motion": "framer-motion for scroll reveals, staggered cards, text mask reveals, and modal animations",
+    "lucide_icons": "lucide-react for high-precision technical icons (Phone, Calendar, ShieldCheck, Snowflake, Wind, Gauge, Star, MapPin, Clock, Wrench, CheckCircle2, AlertTriangle, ArrowRight)"
+  },
+  "testing_and_accessibility": {
+    "data_testid_policy": "All interactive elements, buttons, links, inputs, service cards, pricing buttons, map badges, and modal controls MUST have data-testid attributes (e.g. data-testid='hero-book-button', data-testid='call-button-header', data-testid='service-card-repair', data-testid='pricing-tier-annual', data-testid='booking-submit-button')",
+    "contrast_standards": "High APCA contrast text on dark navy surfaces (#F8FAFC on #0D1424, #00E5FF accents)",
+    "mobile_nav": "Full responsive drawer menu for viewports < 768px with touch-friendly targets"
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic outputs. In frontend design, this creates what users call 'AI slop'. Avoid this: create a distinctive, award-worthy frontend that surprises and delights.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as cheap gradients.",
+    "Don't make generic centered layouts, simplistic gradients, or uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy and glassmorphism (12-24px blur).",
+    "You MUST NOT apply universal transitions like transition: all. Always add transitions for specific properties (transform, opacity, border-color, background-color).",
+    "You MUST NOT center align the app container (.App { text-align: center; }). Preserve left-aligned reading flow.",
+    "Always use modern button styles like pill-shaped or sharp technical buttons with interaction animations & color relevant to the app style.",
+    "NEVER use AI assistant emoji characters like 🤖🧠💭💡🔮🎯 for icons. Use lucide-react icons exclusively.",
+    "Every interaction needs micro-animations: hover states, click feedback, scroll-triggered reveals, and active nav highlighting.",
+    "Use generous spacing (2-3x more spacing than default). Cramped designs look cheap.",
+    "All interactive elements MUST include data-testid attributes for automated testing."
+  ]
+}
